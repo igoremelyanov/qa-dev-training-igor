@@ -16,9 +16,17 @@ namespace Exercises
         public void Var()
         {
             int x = 25;
-            int y = 5;
+            int y = 6;
 
             Console.WriteLine("summ x+y {0}", x + y);
+            Assert.AreEqual(30, x+y, "Meanig summ x + y not equal 30 ");
+
+            //if (x+y != 30)
+             //{
+              //throw new Exception("Summ x + y return wrong value");
+             //} 
+
+
         }
 
     }
