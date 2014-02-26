@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace Exercises
+namespace Exercise_Solutions_Ch4
 {
     [TestFixture]
     public class Exercise4_2

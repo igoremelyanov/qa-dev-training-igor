@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NUnit.Framework;
 
-namespace Exercises
+namespace Exercise_Solutions_Ch4
 {
     [TestFixture]
     public class Exercises4_1
@@ -84,8 +84,6 @@ namespace Exercises
             classify = (input > 0) ? "positive" : "negative";
 
             Console.WriteLine("CLASSIFY {0}", classify);
-
-
            
 
 

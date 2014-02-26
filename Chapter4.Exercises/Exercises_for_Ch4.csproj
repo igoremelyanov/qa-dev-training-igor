@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conditional Example.cs" />
     <Compile Include="Exercise4_2.cs" />
     <Compile Include="Exercise4_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
