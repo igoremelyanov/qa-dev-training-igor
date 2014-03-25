@@ -28,12 +28,12 @@ using NUnit.Framework;
                 //Console.ReadLine();
                 //string theEntry = Console.In.ReadLine();
                 //int theNumber = Convert.ToInt32(theEntry);
-                int theNumber = 0;    
+                int theNumber = 5;    
                 numericCondition condition = numericCondition.unknown; // initialize
-                condition = (theNumber%2 == 0) ? numericCondition.even : numericCondition.odd;
+                condition = (theNumber%2 == 0) ? numericCondition.even : numericCondition.unknown;
                 if (theNumber%10 == 0) condition = numericCondition.multiple;
                 if (theNumber == 0) condition = numericCondition.zero;
-                if (theNumber > 100) condition = numericCondition.tooBig;
+                if (theNumber > 100)  condition = numericCondition.tooBig;
 
                 switch (condition)
                 {
