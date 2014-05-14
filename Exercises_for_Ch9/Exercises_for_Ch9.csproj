@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9B7AEDB-B57E-481A-9859-058661AA3AE2}</ProjectGuid>
+    <ProjectGuid>{123D6C2A-8217-430B-B183-D95CF420D87D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Exercises__for_Ch7</RootNamespace>
-    <AssemblyName>Exercises_ for_Ch7</AssemblyName>
+    <RootNamespace>Exercises_for_Ch9</RootNamespace>
+    <AssemblyName>Exercises_for_Ch9</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,7 +32,7 @@
   <ItemGroup>
     <Reference Include="nunit.framework, Version=2.6.2.12296, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\NUnit.2.6.2\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercice7_1and7_2.cs" />
-    <Compile Include="Exercise7_3.cs" />
-    <Compile Include="Exercise7_4.cs" />
+    <Compile Include="Exercise9_1.cs" />
+    <Compile Include="Exercise9_2.cs" />
+    <Compile Include="Exercise9_3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

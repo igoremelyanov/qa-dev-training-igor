@@ -20,7 +20,7 @@ using NUnit.Framework;
         }
 
         [Test]
-        public void Staitment_Switch()
+        public void Staitment_Skwitch()
         {
             //while (true)
             //{
