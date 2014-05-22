@@ -41,6 +41,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter10_Atrrays", "Chapte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises_for_Ch10", "Exercises_for_Ch10\Exercises_for_Ch10.csproj", "{EE16C6FA-101A-4082-AEAB-DCEF1D00BDB8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebDrive", "WebDrive", "{DEA7CD09-984E-474B-A3B7-DEF31E0DC9EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_WebDrive", "Example_WebDrive\Example_WebDrive.csproj", "{8FEE1715-91F6-4883-AA78-2CD391DBCA27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDD", "BDD", "{A70D880A-F1F4-4F50-AD0C-2DFDB432CD73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleSearchAndNewSMIandMobileWeb", "GoogleSearch\GoogleSearchAndNewSMIandMobileWeb.csproj", "{07F425D6-436D-4298-A97F-6C26E7B18928}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -161,6 +169,26 @@ Global
 		{EE16C6FA-101A-4082-AEAB-DCEF1D00BDB8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{EE16C6FA-101A-4082-AEAB-DCEF1D00BDB8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{EE16C6FA-101A-4082-AEAB-DCEF1D00BDB8}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27}.Release|x86.ActiveCfg = Release|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{07F425D6-436D-4298-A97F-6C26E7B18928}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,5 +203,7 @@ Global
 		{032999B7-5905-4BC3-A329-50D4536859DE} = {C3E13650-0AEF-4BD9-B4E5-87E86EF0AD89}
 		{123D6C2A-8217-430B-B183-D95CF420D87D} = {98BF5337-0DAD-4DE8-BD13-80CF5B95A619}
 		{EE16C6FA-101A-4082-AEAB-DCEF1D00BDB8} = {CD510BE6-85F0-4679-8644-85F459BB7199}
+		{8FEE1715-91F6-4883-AA78-2CD391DBCA27} = {DEA7CD09-984E-474B-A3B7-DEF31E0DC9EE}
+		{07F425D6-436D-4298-A97F-6C26E7B18928} = {A70D880A-F1F4-4F50-AD0C-2DFDB432CD73}
 	EndGlobalSection
 EndGlobal
